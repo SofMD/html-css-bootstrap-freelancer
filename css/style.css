@@ -15,7 +15,8 @@ footer {
     background-color: steelblue; /*REMOVE*/
 }
 
-.banner, .about {
+.banner, 
+.about {
     background-color: #1abc9c;
 }
 
