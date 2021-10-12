@@ -1,16 +1,5 @@
-/* header */
-header {
-    background-color: #3a546d;
-}
 
-header .navbar .collapse ul li .nav-list {
-    color: white;
-}
-
-/* main */
-.box { 
-    background-color: steelblue; /*REMOVE*/
-}
+/* general */
 
 .banner,
 .about,
@@ -24,16 +13,6 @@ footer {
     background-color: #1abc9c;
 }
 
-
-.contacts{
-    background-color: #3a546d;
-} 
-
-/* banner */
-.avatar {
-    width: 15rem;
-}
-
 .banner-star {
     font-size: 2rem;
     padding: 0 20px;
@@ -41,7 +20,7 @@ footer {
 
 hr.line {
     width: 10rem;
-    border: 2px solid white;
+    border: 2px solid currentColor;
     border-radius: 25px;
     margin: 0 auto;
     opacity: 100%;
@@ -53,6 +32,44 @@ hr.line {
 h1 {
     font-size: 3.5rem;
 }
+
+h2 {
+    font-size: 3rem;
+}
+
+
+/* header */
+header {
+    background-color: #3a546d;
+}
+
+header .navbar .collapse ul li .nav-list {
+    color: white;
+}
+
+
+/* banner */
+.avatar {
+    width: 15rem;
+}
+
+.contacts{
+    background-color: #3a546d;
+} 
+
+.portfolio {
+    color: #333333;
+}
+
+/* cards */
+.portfolio-card img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+
+
+
 
 /* footer */
 footer {
