@@ -140,7 +140,7 @@
                 <!-- form-->
                 <div class="row justify-content-center mt-4">
                     <div class="col-9">
-                        <form action="contact-me">
+                        <form action="contact-me" id="contact-me">
                             <div class="mt-5 contact-form">
                                 <label for="name" class="form-label fs-4"> Name</label>
                                 <input type="text" class="form-control" id="name">
@@ -151,17 +151,17 @@
                             </div>
                             <div class="mt-4 contact-form">
                                 <label for="number" class="form-label fs-4">Phone Number</label>
-                                <input type="text" class="form-control" id="number">
+                                <input type="tel" class="form-control" id="number">
                             </div>
                             <div class="mt-4 contact-form">
                                 <label for="message" class="form-label fs-4">Message</label>
                                 <textarea  class="form-control" id="message"></textarea>
                             </div>
+                            <div class="mt-4 pb-5">
+                                <button type="submit" form="contact-me" class="btn btn-outline-primary">Send</button>
+                            </div>
                         </form>
                         <!-- button -->
-                        <div class="mt-4 pb-5">
-                            <button type="button" class="btn btn-outline-primary">Send</button>
-                        </div>
                     </div>
                     
                 </div>
@@ -169,19 +169,47 @@
         </section>
 
         <!-- contacts -->
-        <section class="contacts">
+        <section class="contacts pb-4 pt-5">
             <div class="container ">
-                <div class="text-center row justify-content-center">
-                    <div class="col-11 col-md-4">indirizzo</div>
-                    <div class="col-11 col-md-4">social</div>
-                    <div class="col-11 col-md-4">freelancer</div>
+                <div class="text-center row justify-content-center ">
+                    <div class="col-11 col-md-4 mb-5">
+                        <h3 class="fs-3">LOCATION</h3>
+                        <div class="fs-5">2255 Jhon Daniel Drive Clark, MO <br> 54243</div>
+                    </div>
+                    <div class="col-11 col-md-4 mb-5">
+                        <h3 class="fs-3">AROUND THE WEB</h3>
+                        <a href="/" class="d-inline-block">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="/" class="d-inline-block ms-2">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                        <a href="/" class="d-inline-block ms-2">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="/" class="d-inline-block ms-2">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                       
+                    </div>
+                    <div class="col-11 col-md-4 mb-5">
+                        <h3 class="fs-3">AROUND FREELANCER</h3>
+                        <div class="fs-5">
+                            Freelancer is a free to use, open source Bootstrap theme created by
+                            <a href="./index.html"> Start Bootstrap</a>.
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
     </main>
     <!-- footer -->
-    <footer class="text-center"> copyright </footer>
+    <footer class="text-center p-5"> 
+        Copyright 
+        <i class="far fa-copyright"></i> 
+        Your Website 2019
+    </footer>
     
 </body>
 </html>
