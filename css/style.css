@@ -24,17 +24,35 @@ footer {
     background-color: #1abc9c;
 }
 
-.portfolio-title,
-.about-title,
-.info-title,
-.contacts-list,
-footer {
-    text-align: center;
-}
 
 .contacts{
     background-color: #3a546d;
-}    
+} 
+
+/* banner */
+.avatar {
+    width: 15rem;
+}
+
+.banner-star {
+    font-size: 2rem;
+    padding: 0 20px;
+}
+
+hr.line {
+    width: 10rem;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin: 0 auto;
+    opacity: 100%;
+    display: inline-block;
+    vertical-align:middle;
+    paddi
+}
+
+h1 {
+    font-size: 3.5rem;
+}
 
 /* footer */
 footer {
