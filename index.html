@@ -107,7 +107,7 @@
                 </div>
                 <!-- content -->
                 <div class="row justify-content-center mt-3">
-                    <div class="col-8 col-md-4">
+                    <div class="col-8 col-md-4 mb-3">
                         Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete sourse files including HTML, CSS and JAVASCRIPT as well as optional LESS stylesheets for easy customizaton.
                     </div>
                     <div class="col-8 col-md-4">
@@ -126,15 +126,44 @@
         </section>
 
         <!-- info -->
-        <section class="info">
+        <section class="info mt-5">
             <div class="container">
                 <!-- titolo -->
-                <div class="text-center"> title</div>
-                <!-- content -->
-                <div class="row justify-content-center">
-                    <div class="col-8">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit similique rerum quisquam velit laboriosam accusantium itaque doloremque exercitationem, repudiandae illum id dolore totam dolores numquam labore est quas facilis debitis.
+                <div class="text-center "> 
+                    <h2 class="fw-bold">CONTACT ME</h2>
+                    <div class="mt-3">
+                        <hr class="line">
+                        <i class="fas fa-star banner-star"></i>
+                        <hr class="line">
                     </div>
+                </div>
+                <!-- form-->
+                <div class="row justify-content-center mt-4">
+                    <div class="col-9">
+                        <form action="contact-me">
+                            <div class="mt-5 contact-form">
+                                <label for="name" class="form-label fs-4"> Name</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="mt-4 contact-form">
+                                <label for="email" class="form-label fs-4">Email Address</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="mt-4 contact-form">
+                                <label for="number" class="form-label fs-4">Phone Number</label>
+                                <input type="text" class="form-control" id="number">
+                            </div>
+                            <div class="mt-4 contact-form">
+                                <label for="message" class="form-label fs-4">Message</label>
+                                <textarea  class="form-control" id="message"></textarea>
+                            </div>
+                        </form>
+                        <!-- button -->
+                        <div class="mt-4 pb-5">
+                            <button type="button" class="btn btn-outline-primary">Send</button>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>

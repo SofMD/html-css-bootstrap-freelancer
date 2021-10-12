@@ -57,7 +57,8 @@ header .navbar .collapse ul li .nav-list {
     background-color: #3a546d;
 } 
 
-.portfolio {
+.portfolio,
+.info {
     color: #333333;
 }
 
@@ -73,7 +74,23 @@ header .navbar .collapse ul li .nav-list {
     border: 1px solid currentColor;
 }
 
+/* info */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    border: 0;
+    border-bottom: 1px solid rgb(172, 171, 171);
+}
 
+.contact-form textarea {
+    height: 120px;
+}
+
+.info button {
+    background-color: #1abc9c;
+    border: 0;
+    color: white;
+}
 
 /* footer */
 footer {
