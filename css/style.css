@@ -1,18 +1,22 @@
+/* header */
 header {
     background-color: #3a546d;
 }
 
-header,
-.banner,
-.about,
-.contacts,
-footer {
+header .navbar .collapse ul li .nav-list {
     color: white;
 }
 
 /* main */
 .box { 
     background-color: steelblue; /*REMOVE*/
+}
+
+.banner,
+.about,
+.contacts,
+footer {
+    color: white;
 }
 
 .banner, 
