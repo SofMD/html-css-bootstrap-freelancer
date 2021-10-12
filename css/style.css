@@ -67,7 +67,11 @@ header .navbar .collapse ul li .nav-list {
     border-radius: 15px;
 }
 
-
+/* about */
+.about button {
+    color: currentColor;
+    border: 1px solid currentColor;
+}
 
 
 
